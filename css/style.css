@@ -1,0 +1,32 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* DEBUG */
+.debug header{
+    background-color: #ADD8E6;
+}
+.debug .header-top{
+    background-color: #DAA520;
+    height: 50px;
+}
+
+/* COMMON */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* HEADER */
+header{
+    padding: 18px 8px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
