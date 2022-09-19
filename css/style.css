@@ -13,6 +13,23 @@
     background-color: #DAA520;
     height: 50px;
 }
+.debug .col-big{
+    background-color: #1E90FF;
+}
+
+.debug .col-small{
+    background-color: #FFC0CB;
+}
+.debug .row{
+    height: 500px;
+}
+
+.debug .hero{
+    background-color: #00008B;
+}
+.debug .col-single{
+    background-color: #EE82EE;
+}
 
 /* COMMON */
 .container{
@@ -29,4 +46,37 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* MAIN */
+section{
+    padding: 40px 0px;
+}
+
+section:nth-child(2n){
+    background-color: grey;
+}
+
+.row{
+    display: flex;
+}
+
+.row-single{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.col-big{
+    width: 60%;
+}
+
+.col-small{
+    width: 40%;
+}
+
+.col-single{
+    height: 400px;
+    width: 900px;
 }
