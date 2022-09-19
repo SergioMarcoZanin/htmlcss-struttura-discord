@@ -30,7 +30,13 @@
 .debug .col-single{
     background-color: #EE82EE;
 }
+.debug .col-bigsingle{
+    background-color: green;
+}
 
+.debug .row-bigsingle{
+    height: 1000px;
+}
 /* COMMON */
 .container{
     max-width: 1200px;
@@ -68,6 +74,10 @@ section:nth-child(2n){
     padding: 40px;
 }
 
+.row-bigsingle{
+    display: flex;
+}
+
 .col-big{
     width: 60%;
 }
@@ -79,4 +89,8 @@ section:nth-child(2n){
 .col-single{
     height: 400px;
     width: 900px;
+}
+
+.col-bigsingle{
+    width: 100%;
 }
